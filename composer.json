@@ -1,0 +1,28 @@
+{
+  "name" : "levi/lv",
+  "description" : "方便，快捷，更有效的进行开发",
+  "version" : "1.0.8",
+  "require" : {
+    "php" : ">=5.4.0",
+    "ext-curl": "*"
+  },
+  "repositories" : [ {
+    "type" : "composer",
+    "url" : "https://packagist.org/"
+  } ],
+  "authors" : [ {
+    "name" : "Levi",
+    "email" : "cgfeel@gmail.com",
+    "homepage" : "http://levi.cg.am"
+  } ],
+  "keywords" : [ "event", "file", "filter", "request", "url", "route", "restful" ],
+  "autoload" : {
+    "psr-4" : {
+      "lv\\" : "/"
+    },
+    "files": ["lv.php"]
+  },
+  "license" : "MIT",
+  "type" : "library",
+  "homepage" : "http://levi.cg.am"
+}
